@@ -124,6 +124,43 @@ body {
   color: #ff6b35;
 }
 
+.depoimentos {
+  padding: 40px 28px;
+  border-top: 1px solid #222;
+}
+
+.titulo-depoimentos {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.lista-depoimentos {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.depoimento {
+  background-color: #1a1a1a;
+  border-left: 3px solid #ff6b35;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.texto-depoimento {
+  font-size: 14px;
+  color: #b3b3b3;
+  line-height: 1.7;
+}
+
+.autor-depoimento {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff6b35;
+}
+
 .informacoes {
   padding: 32px 28px;
   display: flex;
