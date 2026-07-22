@@ -9,11 +9,13 @@ Landing page de uma oficina mecânica que apresenta os serviços oferecidos, inf
 
 ## Estrutura de arquivos
 
+```
 oficina/
-── index.html        Página principal
-── estilo.css        Estilos da página
-── assets/
-    ── banner_oficina.png  Imagem de destaque da página
+├── index.html          # Página principal
+├── estilo.css          # Estilos da página
+└── assets/
+    └── banner_oficina.png  # Imagem de destaque da página
+```
 
 ## Como visualizar
 
