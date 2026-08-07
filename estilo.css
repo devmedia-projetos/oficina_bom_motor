@@ -124,7 +124,6 @@ body {
 
 .sobre {
   padding: 40px 28px;
-  border-bottom: 1px solid #ff6b35;
 }
 
 .titulo-sobre {
@@ -137,35 +136,6 @@ body {
   color: #b3b3b3;
   line-height: 1.7;
   max-width: 500px;
-}
-
-.sobre-destaques {
-  display: flex;
-  gap: 24px;
-  margin-top: 24px;
-  flex-wrap: wrap;
-}
-
-.sobre-destaque {
-  flex: 1;
-  min-width: 120px;
-  background-color: #111;
-  border-radius: 8px;
-  padding: 20px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.sobre-destaque-numero {
-  font-size: 28px;
-  font-weight: bold;
-  color: #ff6b35;
-}
-
-.sobre-destaque-label {
-  font-size: 13px;
-  color: #999;
 }
 
 .servicos {
@@ -215,7 +185,7 @@ body {
 .diferenciais {
   display: flex;
   gap: 14px;
-  padding: 40px 28px 40px;
+  padding: 0 28px 40px;
   flex-wrap: wrap;
 }
 
@@ -250,7 +220,7 @@ body {
 
 .avaliacoes {
   padding: 40px 28px;
-  border-top: 1px solid #ff6b35;
+  border-top: 1px solid #222;
 }
 
 .titulo-avaliacoes {
@@ -297,7 +267,7 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  border-top: 1px solid #ff6b35;
+  border-top: 1px solid #222;
 }
 
 .localizacao,
@@ -321,7 +291,7 @@ body {
 .rodape {
   text-align: center;
   padding: 16px 28px;
-  border-top: 1px solid #ff6b35;
+  border-top: 1px solid #222;
 }
 
 .texto-rodape {
