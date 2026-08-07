@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendar Serviço — Oficina Bom Motor</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="agendamento.css">
+</head>
+<body>
+  <div class="pagina">
+
+    <div class="topo">
+      <a href="index.html" class="logo">Oficina Bom Motor</a>
+      <div class="menu">
+        <p>Serviços</p>
+        <p>Sobre</p>
+        <p>Contato</p>
+        <p>Orçamentos</p>
+        <p>Promoções</p>
+        <p>Avaliações</p>
+      </div>
+    </div>
+
+    <div class="cabecalho-pagina">
+      <h2 class="titulo-pagina">Agende seu serviço</h2>
+      <p class="subtitulo-pagina">Escolha o serviço, informe seus dados e nossa equipe confirmará o horário em até 2 horas.</p>
+    </div>
+
+    <div class="conteudo-agendamento">
+
+      <div class="formulario-bloco">
+        <h3 class="titulo-bloco">Seus dados</h3>
+        <div class="campo">
+          <label class="label-campo" for="nome">Nome completo</label>
+          <input class="input-campo" type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="campo">
+          <label class="label-campo" for="telefone">Telefone</label>
+          <input class="input-campo" type="tel" id="telefone" placeholder="(11) 99999-0000">
+        </div>
+        <div class="campo">
+          <label class="label-campo" for="email">E-mail</label>
+          <input class="input-campo" type="email" id="email" placeholder="seuemail@email.com">
+        </div>
+      </div>
+
+      <div class="formulario-bloco">
+        <h3 class="titulo-bloco">Sobre o veículo</h3>
+        <div class="campo">
+          <label class="label-campo" for="veiculo">Modelo do veículo</label>
+          <input class="input-campo" type="text" id="veiculo" placeholder="Ex: Honda Civic 2020">
+        </div>
+        <div class="campo">
+          <label class="label-campo" for="servico">Serviço desejado</label>
+          <select class="input-campo" id="servico">
+            <option value="" disabled selected>Selecione um serviço</option>
+            <option>Troca de óleo</option>
+            <option>Revisão completa</option>
+            <option>Alinhamento e balanceamento</option>
+            <option>Suspensão</option>
+            <option>Freios</option>
+            <option>Elétrica</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label class="label-campo" for="data">Data preferida</label>
+          <input class="input-campo" type="date" id="data">
+        </div>
+        <div class="campo">
+          <label class="label-campo" for="observacao">Observações</label>
+          <textarea class="input-campo input-textarea" id="observacao" placeholder="Descreva o problema ou qualquer detalhe relevante sobre o veículo"></textarea>
+        </div>
+        <button class="btn-agendar">Solicitar agendamento</button>
+      </div>
+
+    </div>
+
+    <div class="info-agendamento">
+
+      <div class="info-item">
+        <p class="icone-diferencial">✓</p>
+        <div>
+          <p class="nome-diferencial">Confirmação rápida</p>
+          <p class="descricao-diferencial">Retornamos em até 2 horas pelo telefone ou e-mail informado.</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <p class="icone-diferencial">✓</p>
+        <div>
+          <p class="nome-diferencial">Diagnóstico gratuito</p>
+          <p class="descricao-diferencial">Identificamos o problema antes de qualquer cobrança.</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <p class="icone-diferencial">✓</p>
+        <div>
+          <p class="nome-diferencial">Orçamento na hora</p>
+          <p class="descricao-diferencial">Você aprova o valor antes de qualquer serviço começar.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="informacoes">
+      <div class="localizacao">
+        <h4 class="titulo-informacao">Como chegar</h4>
+        <p class="texto-informacao">Rua das Oficinas, 245, Centro</p>
+        <p class="texto-informacao">Próximo ao Terminal Central</p>
+      </div>
+      <div class="horario">
+        <h4 class="titulo-informacao">Horário de atendimento</h4>
+        <p class="texto-informacao">Segunda a Sexta: 8h às 18h</p>
+        <p class="texto-informacao">Sábado: 8h às 13h</p>
+      </div>
+      <div class="contato">
+        <h4 class="titulo-informacao">Contato</h4>
+        <p class="texto-informacao">(11) 99999-0000</p>
+        <p class="texto-informacao">contato@oficinabomoMotor.com.br</p>
+      </div>
+    </div>
+
+    <div class="rodape">
+      <p class="texto-rodape">© 2026 Oficina Bom Motor. Todos os direitos reservados.</p>
+    </div>
+
+  </div>
+</body>
+</html>

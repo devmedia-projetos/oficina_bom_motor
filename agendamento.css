@@ -1,0 +1,126 @@
+/* ================================
+   Logo como link no topo
+   ================================ */
+
+.logo {
+  text-decoration: none;
+}
+
+/* ================================
+   Cabeçalho da página
+   ================================ */
+
+.cabecalho-pagina {
+  padding: 40px 28px 32px;
+  border-bottom: 1px solid #222;
+}
+
+.titulo-pagina {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.subtitulo-pagina {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+/* ================================
+   Área principal: formulário
+   ================================ */
+
+.conteudo-agendamento {
+  display: flex;
+  gap: 24px;
+  padding: 32px 28px;
+  flex-wrap: wrap;
+}
+
+.formulario-bloco {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.titulo-bloco {
+  font-size: 15px;
+  color: #ff6b35;
+  margin-bottom: 4px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label-campo {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.input-campo {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-campo:focus {
+  border-color: #ff6b35;
+}
+
+.input-campo option {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.input-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-agendar {
+  background-color: #ff6b35;
+  color: #000;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+/* ================================
+   Bloco de informações de apoio
+   ================================ */
+
+.info-agendamento {
+  display: flex;
+  gap: 14px;
+  padding: 0 28px 40px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #222;
+}
+
+.info-item {
+  flex: 1;
+  min-width: 200px;
+  background-color: #111;
+  border-radius: 8px;
+  padding: 20px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
