@@ -32,11 +32,22 @@ body {
 .menu {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .menu p {
   font-size: 14px;
   color: #e5e5e5;
+}
+
+.menu-agendar {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ff6b35;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 .banner {
@@ -55,6 +66,13 @@ body {
   margin: 24px auto;
 }
 
+.banner-acoes {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
 .btn-whatsapp {
   background-color: #ff6b35;
   color: #000;
@@ -66,8 +84,47 @@ body {
   cursor: pointer;
 }
 
+.btn-agendar {
+  display: inline-block;
+  background-color: transparent;
+  color: #ff6b35;
+  border: 2px solid #ff6b35;
+  padding: 13px 26px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chamada-agendamento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  background-color: #1a1a1a;
+  border-left: 4px solid #ff6b35;
+  margin: 0;
+  gap: 24px;
+}
+
+.chamada-agendamento-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.chamada-agendamento-descricao {
+  font-size: 13px;
+  color: #999;
+  line-height: 1.6;
+  max-width: 540px;
+}
+
 .sobre {
   padding: 40px 28px;
+  border-bottom: 1px solid #ff6b35;
 }
 
 .titulo-sobre {
@@ -82,6 +139,35 @@ body {
   max-width: 500px;
 }
 
+.sobre-destaques {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.sobre-destaque {
+  flex: 1;
+  min-width: 120px;
+  background-color: #111;
+  border-radius: 8px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sobre-destaque-numero {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6b35;
+}
+
+.sobre-destaque-label {
+  font-size: 13px;
+  color: #999;
+}
+
 .servicos {
   padding: 0 28px 40px;
 }
@@ -94,6 +180,7 @@ body {
 .lista-servicos {
   display: flex;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .servico {
@@ -102,6 +189,7 @@ body {
   border-radius: 8px;
   padding: 20px 16px;
   flex: 1;
+  min-width: 120px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -127,7 +215,7 @@ body {
 .diferenciais {
   display: flex;
   gap: 14px;
-  padding: 0 28px 40px;
+  padding: 40px 28px 40px;
   flex-wrap: wrap;
 }
 
@@ -162,7 +250,7 @@ body {
 
 .avaliacoes {
   padding: 40px 28px;
-  border-top: 1px solid #222;
+  border-top: 1px solid #ff6b35;
 }
 
 .titulo-avaliacoes {
@@ -209,7 +297,7 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  border-top: 1px solid #222;
+  border-top: 1px solid #ff6b35;
 }
 
 .localizacao,
@@ -233,7 +321,7 @@ body {
 .rodape {
   text-align: center;
   padding: 16px 28px;
-  border-top: 1px solid #222;
+  border-top: 1px solid #ff6b35;
 }
 
 .texto-rodape {
