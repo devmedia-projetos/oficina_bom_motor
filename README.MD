@@ -1,5 +1,8 @@
 # Oficina Bom Motor
 
+🔧 Branch atual: secao-promocoes — em desenvolvimento, adicionando a seção de promoções à página inicial.
+
+
 Landing page de uma oficina mecânica com apresentação de serviços, informações de contato e página de agendamento online.
 
 ## Sobre o projeto

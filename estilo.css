@@ -182,6 +182,76 @@ body {
   color: #ff6b35;
 }
 
+.promocoes {
+  padding: 0 28px 40px;
+}
+
+.titulo-promocoes {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.lista-promocoes {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.promocao {
+  background-color: #1a1a1a;
+  border-top: 3px solid #ff6b35;
+  border-radius: 8px;
+  padding: 20px 16px;
+  flex: 1;
+  min-width: 180px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selo-promocao {
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  background-color: #ff6b35;
+  color: #000;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.nome-promocao {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.descricao-promocao {
+  font-size: 13px;
+  color: #999;
+  line-height: 1.5;
+}
+
+.preco-promocao {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.preco-antigo {
+  font-size: 13px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.preco-novo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6b35;
+}
+
 .diferenciais {
   display: flex;
   gap: 14px;
